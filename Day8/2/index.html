@@ -17,7 +17,7 @@
         <table cellspacing="10">
             <tr align="left">
                 <td><label for="SFname">Full Name :</label></td>
-                <td><input type="text" name="SFname" id="SFname" placeholder="First Name"></td>
+                <td><input type="text" name="SFname" id="SFname" placeholder="First Name" required></td>
                 <td><input type="text" name="SMname" id="SMname" placeholder="Middle Name"></td>
                 <td><input type="text" name="SLname" id="SLname" placeholder="Last Name"></td>                
             </tr>
@@ -50,7 +50,7 @@
                     <label for="gender">Gender :</label>
                 </td>
                 <td><input type="radio" name="gender" id="gen" value="Male">Male
-                <input type="radio" name="gender" id="gen" value="female">Female<td>
+                <input type="radio" name="gender" id="gen" value="Female">Female<td>
             </tr>
             <tr>
                 <td>
@@ -61,12 +61,14 @@
             <tr>
                 <td><label for="bgroup">Blood Group :</label></td>
                 <td><select name="Blood" id="bgroup">
-                    <option value="O+ve">O+ve</option>
-                    <option value="O-ve">O-ve</option>
+                    
                     <option value="A+ve">A+ve</option>
                     <option value="A-ve">A-ve</option>
                     <option value="B+ve">B+ve</option>
                     <option value="B-ve">B-ve</option>
+                    <option value="">Blood Group</option>
+                    <option value="O+ve">O+ve</option>
+                    <option value="O-ve">O-ve</option>
                     <option value="AB+ve">AB+ve</option>
                     <option value="AB-ve">AB-ve</option>
                 </select>
@@ -82,6 +84,16 @@
                 </td>
             </tr>
             <tr>
+                <td>
+                    <label for="lang">Language :</label>
+                </td>
+                <td>
+                    <input type="checkbox"><label for="lang1" value="English">English</label>
+                    <input type="checkbox"><label for="lang1" value="Hindi">Hindi</label><br>
+                    <input type="checkbox"><label for="lang1" value="Odia">Odia</label>
+                </td>
+            </tr>
+            <tr>
                 <td><label for="photo">Photo :</label></td>
                 <td></td>
                 <td></td>
@@ -91,7 +103,8 @@
             </tr>
             <tr>
                 <td></td>
-                <td align="right"><input type="submit" value="Submit"></td>
+                
+                <td align="right"><input type="reset" value="Reset"><input type="submit" value="Submit"></td>
             </tr>
         </table>
     </form>

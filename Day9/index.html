@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licence Registration Form</title>
+</head>
+<body>
+    <center>
+    <form action="">
+        <table border="2">
+            <th><h2>Licence Registration Form</h2></th>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td><label for="name">Name :</label></td>
+                <td><input type="text" id="name" name="fname" placeholder="First Name" required></td>
+                <td><input type="text" name="mname" placeholder="Middle Name"></td>
+                <td><input type="text"name="lname"placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email :</label>
+                </td>
+                <td><input type="email" name="email" id="email" placeholder="example@gmail.com" required ></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth :</label></td>
+                <td><input type="date" name="dob" id="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age :</label></td>
+                <td><input type="text" name="age" id="age" min="18" required></td>
+            </tr>
+            <tr>
+                <td><label for="mob">Mobile No :</label></td>
+                <td><input type="number" name="mobno" id="mob"  minlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender: </label></td>
+                <td><input type="radio" name="gender" id="gender" value="Male">Male
+                <input type="radio" name="gender" id="gender" value="Female">Female</td>                
+            </tr>
+            <tr>
+                <td><label for="ll">LL No :</label></td>
+                <td><input type="number" name="ll" id="ll"></td>
+            </tr>
+            <tr>
+                <td><label for="vehicle">Select Vehicle:</label>
+                </td>
+                <td><select name="vehicle" id="v" multiple>
+                    <optgroup label="2-Wheerler">
+                        <option value="MCWOG">MCWOG</option>
+                        <option value="MCWG">MCWG</option>
+                    </optgroup>
+                    <optgroup label="4-Wheeler">
+                        <option value="LMV">LMV</option>
+                        
+                    </optgroup>
+                    <optgroup label="Comercial">
+                        <option value="HMV">HMV</option>
+                        <option value="HGMV">HMV</option>
+                        <option value="HPMV">HMV</option>
+                    </optgroup>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="bgroup">Blood Group :</label></td>
+                <td><select name="Blood" id="bgroup">
+                    
+                    <option value="A+ve">A+ve</option>
+                    <option value="A-ve">A-ve</option>
+                    <option value="B+ve">B+ve</option>
+                    <option value="B-ve">B-ve</option>
+                    <option value="">Blood Group</option>
+                    <option value="O+ve">O+ve</option>
+                    <option value="O-ve">O-ve</option>
+                    <option value="AB+ve">AB+ve</option>
+                    <option value="AB-ve">AB-ve</option>
+                </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input type="reset">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
