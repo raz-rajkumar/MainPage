@@ -1,0 +1,9 @@
+body
+{
+    background:linear-gradient(skyblue,white);
+    height: 100vh;
+}
+#heading
+{
+    background-color:lightgray;
+}
