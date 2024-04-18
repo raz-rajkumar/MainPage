@@ -1,0 +1,21 @@
+body
+{
+    background:linear-gradient(rgb(250, 164, 164),rgb(107, 107, 241),rgb(20, 163, 182));
+    height:100vh;
+}
+#heading
+{
+    background-color: lime;
+}
+#table
+{
+    border-radius: 30px;
+}
+#new
+{
+    border-radius: 20px;
+    color:black;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
