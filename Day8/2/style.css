@@ -5,7 +5,8 @@ body
 }
 #heading
 {
-    background-color: lime;
+    background-color:#FF00FF;
+    
 }
 #table
 {
@@ -18,4 +19,5 @@ body
     font-size: x-large;
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
