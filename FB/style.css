@@ -1,0 +1,65 @@
+#main
+{
+   height: 400px;
+   width: 400px;
+   border:1px solid black;
+   background-color: rgb(253, 234, 234);
+   font-size: 20px;
+   border-radius: 20px;
+}
+body
+{
+    background:linear-gradient(blue,white);
+    height: 100vh;
+    
+}
+#p1
+{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+
+}
+#head
+{
+    width:100%;
+    height: 10%;
+    background-color: rgb(78, 78, 206);
+    color: white;
+    border-radius:20px 20px 0px 0px;
+}
+#email
+{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+#pass
+{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+#log
+{
+    width:80%;
+    height: 20%;
+    background-color: rgb(78, 78, 206);
+    border-radius: 30px;
+    color: white;
+}
+#p2
+{
+    color: blue;
+    font-size:large;
+    text-decoration: dashed
+}
+#new
+{
+    text-decoration: none;
+}
+#newpage
+{
+    color: white;
+    text-decoration: none;
+}

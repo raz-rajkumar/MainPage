@@ -1,0 +1,25 @@
+body
+{
+    background-image: url('./MS_Dhoni__1709636073564_1709636073921.avif');
+
+    background:linear-gradient(pink,rgb(224, 28, 28))
+}
+#head
+{
+    color: white;
+    text-decoration: double;
+}
+#para
+{
+    color: white;
+}
+.box
+{
+    border: 2px solid black;
+    height: 100px;
+    background-image: ur;
+}
+#new
+{
+    color: white;
+}
