@@ -1,3 +1,7 @@
+body{
+    background: linear-gradient(pink,rgba(165, 42, 42, 0.342),rgba(0, 0, 255, 0.377));
+    height: 100vh;
+}
 .container
 {
     margin-top: 100px;
