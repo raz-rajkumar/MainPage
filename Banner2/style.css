@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgba(240, 189, 49, 0.925);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    height: 480px;
+    width: 320px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 9px;
+    background-color: white;
+    box-shadow: 6px 6px 1px black;
+}
+.box
+{
+    height: 200px;
+    margin: 10px;
+    
+}
+#b1
+{
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+#b2
+{
+    display: flex;
+    justify-content: left;
+    display: block;
+    align-items: left;
+    padding: 10px;
+    
+    height: 230px;
+    
+}
+.p1
+{
+    padding: 5px;
+    width:min-content;
+    background-color:rgba(226, 176, 69, 0.897);
+    align-items: left;
+    font-weight: bolder;
+}
+.p2
+{
+   
+    align-items: left;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p3
+{
+    align-items: left;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p4
+{
+    color: rgb(105, 103, 103);
+    font-family:serif;
+    font-size: 15px;
+}
+.p5
+{
+    
+    height: 60px;
+    display: flex;
+    float: left;
+    font-weight: bolder;
+}
+.pic
+{
+    background: url('../images/DSC_03891.JPG');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 7px
+}
+p
+{
+    margin-top: 22px;
+}
