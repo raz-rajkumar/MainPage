@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container
+{
+    
+    height: 400px;
+    width: 660px;
+    display: flex;
+    border-radius: 10px;
+}
+.box
+{
+    height: 400px;
+    width: 220px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.sedan
+{
+    padding: 20px;
+    
+}
+.suv
+{
+    padding: 20px;
+}
+.luxury
+{
+    padding: 20px;
+}
+.box1
+{
+    background-color:hsl(31, 77%, 52%) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.box2
+{
+    background-color:hsl(184, 100%, 22%) ;
+}
+.box3
+
+{
+    background-color:hsl(179, 100%, 13%) ;
+    border-radius: 0px 20px 20px 0px;
+}
+button{
+    margin: 25px 0px;
+    padding: 10px;
+    background-color: white;
+    
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 120px;
+}
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury button{
+    color:hsl(179, 100%, 13%) ;
+}
+p{
+    color: rgba(255, 255, 255, 0.534);
+    font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
