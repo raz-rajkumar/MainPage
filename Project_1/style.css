@@ -92,6 +92,7 @@ body
     padding: 0px 24.5px;
 }
 .footer h2{
+    margin-top: -15px;
     color: white;
 }
 
@@ -99,8 +100,8 @@ body
 {
     height: 50px;
     width: 280px;
-    border: 1px solid white;
     
+    padding: 0px 0px 0px 18px;
     display: grid;
     margin: 10px 10px ;
 }
@@ -156,6 +157,7 @@ button
     margin-top: 15px;
     margin-bottom: 10px;
     border: none;
+    margin-right: 20px;
 }
 .reaction
 {
@@ -167,21 +169,21 @@ button
 .memory
 {
     margin-left: 10px;
-    margin-right: 90px;
+    margin-right: 95px;
     color: hsl(39, 100%, 56%);
     
 }
 .verbal
 {
     margin-left: 10px;
-    margin-right: 90px;
+    margin-right: 110px;
     color: hsl(166, 100%, 37%);
     
 }
 .visual
 {
     margin-left: 10px;
-    margin-right: 90px;
+    margin-right: 115px;
     color: hsl(234, 85%, 45%);
     
 }
