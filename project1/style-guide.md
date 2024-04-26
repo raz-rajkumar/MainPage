@@ -13,27 +13,41 @@ The designs were created to the following widths:
 
 ### Primary
 
-Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%)
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+
 
 ### Neutral
 
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+
+### Notes
+
+Use transparency to get the color variations necessary to match the design. Hint: look into using `hsla()`.
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 15px
+- Font size (paragraphs): 18px
 
 ### Font
 
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700
+- Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
+- Weights: 500, 700, 800
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

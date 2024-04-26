@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 body
 {
     height: 100vh;
@@ -6,81 +7,181 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    
-  font-family: "Big Shoulders Display", sans-serif;
+    font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 .container
 {
+     height: 400px;
+     width: 610px;
+     /* border: 1px solid black; */
+     border-radius: 20px;
+     float: left;
+     box-shadow: 20px 20px 70px hsla(224, 30%, 27%, 0.664);
+     display: flex;
     
-    height: 400px;
-    width: 660px;
-    display: flex;
-    border-radius: 10px;
-}
-.box
-{
-    height: 400px;
-    width: 220px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-}
-.sedan
-{
-    padding: 20px;
     
-}
-.suv
-{
-    padding: 20px;
-}
-.luxury
-{
-    padding: 20px;
 }
 .box1
 {
-    background-color:hsl(31, 77%, 52%) ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 20px 0px 0px 20px;
-}
-.box2
-{
-    background-color:hsl(184, 100%, 22%) ;
-}
-.box3
-
-{
-    background-color:hsl(179, 100%, 13%) ;
-    border-radius: 0px 20px 20px 0px;
-}
-button{
-    margin: 25px 0px;
-    padding: 10px;
-    background-color: white;
-    
+    height: 400px;
+    width: 300px;
+    background:hsl(241, 81%, 54%);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head
+{
+    color:rgb(205, 195, 235) ;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+   
+}
+.middle
+{
+    background-color:hsla(256, 72%, 46%, 1);
+    height: 165px;
+    width: 165px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    box-shadow: 0px -20px 60px rgba(255, 255, 255, 0.151), inset 0px -20px 60px hsl(241, 81%, 54%);
+    display: grid;
+    grid-template-rows:200x;
+    display: grid;
+    grid-template-rows: 130px 10px 20px;
+}
+.content
+{
+    
+    height: 40px;
+    width: 80px;
+    
+    text-align: center;
+}
+.content2
+{
+    font-size:13px;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.content1
+{
+    margin-top: -30px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.footer 
+{
+    color:hsl(241, 100%, 89%);
+    text-align: center;
+    padding: 0px 24.5px;
+}
+.footer h2{
+    color: white;
+}
+
+.rbox
+{
+    height: 50px;
+    width: 280px;
     border: 1px solid white;
-    width: 120px;
+    
+    display: grid;
+    margin: 10px 10px ;
 }
-.sedan button{
-    color: hsl(31, 77%, 52%);
+.rbox6
+{
+    height: 70px;
 }
-.suv button{
-    color: hsl(184, 100%, 22%);
+.rbox1
+{
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+    background-color: white;
 }
-.luxury button{
-    color:hsl(179, 100%, 13%) ;
+.rbox2 
+{
+    border-radius: 10px;
+    background-color:hsla(0, 100%, 67%, 0.048) ;
+    align-items: center;
+    display: flex;
 }
-p{
-    color: rgba(255, 255, 255, 0.534);
-    font-family: "Hanken Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+
+.rbox3
+{
+    border-radius: 10px;
+    background-color:hsla(39, 100%, 56%, 0.048) ;
+    align-items: center;
+    display: flex;
+}
+.rbox4 
+{
+    border-radius: 10px;
+    background-color:hsla(166, 100%, 37%, 0.048);
+    align-items: center;
+    display: flex;
+}
+.rbox5
+{
+    border-radius: 10px;
+    background-color:hsla(234, 85%, 45%, 0.048);
+    align-items: center;
+    display: flex;
+    
+}
+button
+{
+    font-size: 20px;
+    font-weight: bold;
+    background-color:hsl(224, 30%, 27%) ;
+    color: white;
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+.reaction
+{
+    margin-left: 10px;
+    margin-right: 90px;
+    color: hsl(0, 100%, 67%);
+    
+}
+.memory
+{
+    margin-left: 10px;
+    margin-right: 90px;
+    color: hsl(39, 100%, 56%);
+    
+}
+.verbal
+{
+    margin-left: 10px;
+    margin-right: 90px;
+    color: hsl(166, 100%, 37%);
+    
+}
+.visual
+{
+    margin-left: 10px;
+    margin-right: 90px;
+    color: hsl(234, 85%, 45%);
+    
 }
