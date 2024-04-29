@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body
+{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.header
+{
+    height: 200px;
+    width:100%;
+    background-color: aqua;
+    background: url('./images/bg-header-desktop.png');
+    box-shadow: inset 0px -40px 70px white;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    
+}
+.logo
+{
+    font-size: 120px;
+    padding-bottom: 10px;
+    color: hsl(171, 66%, 44%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.history
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    text-align: center;
+    
+    padding-bottom: 40px;
+}
+.history p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+.history h1{
+    color: hsl(210, 10%, 33%);
+}
+button
+{
+    height: 35px;
+    width:150px;
+    margin:10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: small;
+    
+}
+#ios
+{
+    background-color:hsl(171, 66%, 44%) ;
+    box-shadow: 0px 2px 5px hsl(171, 26%, 30%);
+}
+#mac
+{
+    background-color:hsl(233, 100%, 69%) ;
+    box-shadow: 0px 2px 5px hsl(233, 100%, 69%);
+}
+.snippets
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.snippets h1{
+    color: hsl(210, 10%, 33%);
+}
+.snippets p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 190px;
+
+}
+.box1
+{
+    height: 500px;
+    width: 770px;
+
+}
+
+.box1 img{
+    height: 600px;
+    width: 100%;
+
+}
+.box2
+{
+    padding:80px
+}
+.box2 h3{
+    color: hsl(210, 10%, 33%);
+}
+.box2 p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+    font-size: small;
+}
+.clip
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.clip h1{
+    color: hsl(210, 10%, 33%);
+}
+.clip p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+.img2
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.work
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.work h1{
+    color: hsl(210, 10%, 33%);
+}
+.work p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+
+.box{
+    
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    padding-bottom: 30px;
+}
+.content
+{
+    height: 200px;
+    width: 90%;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 20px 50px;
+}
+.main2
+{
+
+}
+.boxx
+{
+    height: 200px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clipboard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    text-align: center;
+    
+    padding-bottom: 100px;
+}
+.clipboard p
+{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+.clipboard h1{
+    color: hsl(210, 10%, 33%);
+}
+.foot{
+    height: 120px;
+    width: 100%;
+    background-color: hsla(202, 11%, 66%, 0.226);
+    display: flex;
+    
+    
+}
+.log{
+    height: 80px;
+    width: 70px;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    color: hsl(171, 66%, 44%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 80px;
+    padding-left: 60px;
+    padding-top:30px;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    padding-left: 100px;
+   
+    padding-top: 0px;
+}
+.third
+{
+    padding-right: 200px;
+}
+.s p{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.603);
+}
+.forth
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   padding-left: 50px;
+}
+.forth img{
+    height: 20px;
+    margin: 10px;
+}
+
+
+
+
