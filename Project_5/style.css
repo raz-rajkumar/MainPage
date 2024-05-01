@@ -13,6 +13,8 @@ body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	
 	height: 200vh;
+  background: url('./laptop.jpg');
+  background-attachment: fixed;
  
 }
 
@@ -20,7 +22,7 @@ body {
 
 
 .wrapper {
-  max-width: 800px;
+  max-width: 600px;
   width: 100%;
   background: rgba(141, 145, 146, 0.37);
   margin: 50px auto;
@@ -55,11 +57,11 @@ body {
 
 .wrapper .form .inputfield label {
   width: 200px;
-  color: black;
+  color: rgb(250, 246, 246);
   margin-right: 10px;
   font-size: 14px;
   font-weight:900;
-  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.541);
+  
 }
 
 .wrapper .form .inputfield .input,
@@ -182,8 +184,16 @@ body {
 
 
 #radio {
-  margin: 0 10px 0 10px;
+  display: flex;
+  align-items:flex-start;
+  
 }
+#gender p{
+  color: white;
+  padding: 0 20px;
+  
+}
+
 
 #btn,
 #phone-codes {

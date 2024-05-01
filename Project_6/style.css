@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(127, 255, 212, 0.116);
+}
+.navigation
+{
+    height: 70px;
+    width: 100%;
+   
+}
+.navigation img
+{
+    height: 50px;
+    width: 70px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
