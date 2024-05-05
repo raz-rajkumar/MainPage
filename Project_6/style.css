@@ -1,16 +1,43 @@
 body{
     background-color: rgba(127, 255, 212, 0.116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.navigation
+.main
 {
-    height: 70px;
-    width: 100%;
-   
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border:5px solid black;
+    animation: Raj 1s ease infinite ;
 }
-.navigation img
-{
-    height: 50px;
-    width: 70px;
-    padding-left: 30px;
-    padding-top: 10px;
+@keyframes Raj {
+    0%
+    {
+
+    }
+    20%
+    {
+        border: 5px solid yellow;
+    }
+    40%
+    {
+        border: 5px solid rgb(0, 255, 42)ow;
+    }
+    60%
+    {
+        border: 5px solid rgb(255, 0, 149);
+
+    }
+    80%
+    {
+        border: 5px solid rgb(225, 255, 196);
+    }
+    100% 
+    {
+        border: 5px solid rgb(0, 195, 255);
+    }
 }

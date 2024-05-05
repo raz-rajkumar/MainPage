@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*
+{
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --Primary-color:rgb(202, 8, 8);
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    background: url('./asserts/red-light-round-podium-black-background-mock-up.jpg');
+    background-size: contain;
+
+}
+header{
+    background:linear-gradient(to right,rgba(255, 255, 255, 0.178),rgba(255, 115, 0, 0.61),rgba(0, 204, 255, 0.384));
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+header img{
+    padding-left: 0px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px 50px;
+    font-size: x-large;
+    align-items: center;    
+}
+li{
+    margin: 10px;
+}
+li a:hover{
+    color:var(--Primary-color);
+    transition: all;
+    background-color: white;
+    
+}
+section{
+    margin: 10px;
+   padding: 20px 50px;
+   color: white;
+}
+#banner{
+   display: flex;
+  
+}
+.banner-data{
+   display: flex;
+   flex-direction: column;
+      
+}
+.banner-data h2
+{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:48px;
+}
+.banner-data h3{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:48px;
+    animation: Raj 0.5s ease infinite;
+}
+@keyframes Raj {
+   0%
+   {
+    color: rgb(50, 156, 205);
+    -webkit-text-stroke: 2px;
+   }
+    20% 
+    {
+        color: var(--Primary-color);
+    }
+    60%
+    {
+        color: chartreuse;
+    }
+}
+.banner-data p{
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 35px;
+   text-align: justify;
+
+}
+.banner-data img{
+   border-image: 20px;
+}
+button{
+background-color: black;
+color: white;
+border-radius:50px;
+padding: 10px;
+transition: all 0s  ;
+width: 200px;
+font-weight: bold;
+}
+.secondary{
+   background: none;
+   color: rgb(252, 249, 249);
+   
+   
+}
+button:hover
+{
+   color: black;
+   background-color:aqua;
+}
+
+.Title{
+  font-size: 40px;
+  text-shadow: 2px 2px rgb(255, 174, 0);
+  text-align: center;
+  color: aqua;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+#about{
+   text-align: center;
+   font-size: 24px;
+   line-height: 35px;
+   text-shadow: none;
+   
+}
+.banner-data .name
+{
+    color: aqua;
+    font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
