@@ -544,5 +544,9 @@ section
    {
     padding-left: 10px;
    }
+   .about img
+   {
+    height: 400px;
+   }
 }
 
