@@ -431,7 +431,7 @@ section
 }
 .last-text p
 {
-    color: var(--p-color);
+    color: var(--second-color);
 }
 .top i{
     padding: 10px;
@@ -492,6 +492,16 @@ section
 }
 @media(max-width:480px)
 {
+    .about
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .services-content
+    {
+        display: flex;
+        flex-direction: row;
+    }
    #menu-icon
    {
     display: block;
@@ -528,6 +538,11 @@ section
    .navlist.open
    {
     top:100%;
+   }
+   .contact
+   {
+    display: flex;
+    flex-direction: row;
    }
 }
 
