@@ -488,11 +488,7 @@ section
 }
 @media(max-width:480px)
 {
-    .about
-    {
-        display: flex;
-        flex-direction: row;
-    }
+    
     .services-content
     {
         display: flex;
@@ -542,11 +538,22 @@ section
    }
    .home-text
    {
-    padding-left: 10px;
+    padding-left: 0px;
+    justify-content: left;
    }
    .about img
    {
     height: 400px;
+   }
+   .about{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .home{
+    padding: 20px;
    }
 }
 
