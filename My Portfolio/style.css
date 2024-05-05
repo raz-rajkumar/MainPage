@@ -448,11 +448,7 @@ section
         transition: .1s;
 
     }
-    section
-    {
-        padding: 110px 3% 60px;
-
-    }
+    
     .end{
         padding: 15px 3%;
     }
@@ -543,6 +539,10 @@ section
    {
     display: flex;
     flex-direction: row;
+   }
+   .home-text
+   {
+    padding-left: 10px;
    }
 }
 
