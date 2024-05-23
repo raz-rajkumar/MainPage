@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+#counter
+{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background: linear-gradient(to top right, rgba(255, 0, 0, 0.274), rgba(255, 255, 0, 0.308), rgba(0, 0, 255, 0.315), rgba(255, 166, 0, 0.356));
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+   
+    
+}
+
+#count{
+    height: 100px;
+    font-size: 100px;
+}
+button
+{
+
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    
+}
+#even
+{
+    
+    width: 80px;
+    align-self: flex-end;
+    text-align: center;
+    font-size: x-large;
+    
+}
+#print {
+    
+    height: 50px;
+    font-size: 30px;
+}
+

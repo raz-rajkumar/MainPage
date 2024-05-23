@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+*{
+    box-sizing: border-box;
+}
+#places{
+display: grid;
+grid-template-columns: repeat(2,auto);
+gap: 20px;
+}
+.places{
+ box-shadow: 5px 5px black;
+}
