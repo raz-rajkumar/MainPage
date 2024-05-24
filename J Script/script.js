@@ -179,3 +179,25 @@ Document object stores html, css in tree structure called DOM-tree.
 
 */
 
+/*
+Events:
+
+event propagation: events will get trigger by default from innermost to outermost. This propagation is called as bubbling.
+
+you can make this process reverse , this is called as capturing.
+
+event delegation is a design pattern which makes logic works for parent instead of individual child items.
+
+
+*/
+/*
+setInterval(function(){
+
+
+
+},1000)
+
+JS is synchronous and single threaded language
+*/
+
+

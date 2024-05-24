@@ -13,5 +13,5 @@ grid-template-columns: repeat(2,auto);
 gap: 20px;
 }
 .places{
- box-shadow: 5px 5px black;
+ box-shadow: 5px 5px 10px black;
 }
