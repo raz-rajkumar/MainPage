@@ -1,0 +1,41 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#heading
+{
+    color: chocolate;
+    font-size: 50px;
+}
+#heading span{
+    color: rgb(216, 100, 237);
+}
+#count
+{
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgba(236, 223, 223, 0.296);
+    box-shadow: 4px 4px 15px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#time
+{
+    display: flex;
+    flex-direction: row;
+}
+#hour,#min,h1
+{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
