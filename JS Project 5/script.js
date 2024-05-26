@@ -13,7 +13,7 @@ function days(d){
         case 4: return 'Thursday';break;
         case 5: return 'Friday';break;
         case 6: return 'Saturday';break;
-        case 7: return 'Sunday';break;
+        case 0: return 'Sunday';break;
         
     }
 }
