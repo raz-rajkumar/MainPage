@@ -1,8 +1,23 @@
+body
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://wallpapers.com/images/hd/math-symbols-in-orange-urukb380ueajtbvp.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+
 #calculator{
-  border: 3px solid rgb(19, 18, 18);
+  border: 3px solid rgb(251, 246, 246);
   border-radius: 18px;
   width: 220px;
   background-color: black;
+  
+  
+ 
 }
 #display{
   margin: 10px;
@@ -10,7 +25,7 @@
   border: 0;
   font-size: 30px;
   text-align: right;
-  background-color: black;
+  background-color: rgb(6, 6, 6);
   color: white;
 }
 .button-container{
@@ -50,6 +65,6 @@
   scale: 1.1;
 }
 .button:active{
-  box-shadow: 0 0 0 4px #f15252,0 0 0 8px #bfc3eb;
-  scale:1.05;
+  box-shadow: 0 0 0 4px #160606,0 0 0 8px #bfc3eb;
+  scale:0.8;
 }
