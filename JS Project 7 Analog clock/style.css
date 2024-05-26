@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: url('https://images8.alphacoders.com/126/thumb-1920-1262109.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #name
+  {
+    padding-left: 880px;
+    font-style: italic;
+    color: rgba(68, 19, 4, 0.777);
+    text-shadow: 5px 5px 2px rgb(116, 100, 100);
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding-left: 200px;
+    padding-bottom: 300px;
+  }
+  
+  .clock-outer {
+   
+    width: 290px;
+    height: 290px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .clock {
+    width: 250px;
+    height: 250px;
+    background: rgba(10, 10, 10, 0);
+    border-radius: 50%;
+    position: relative;
+    
+  }
+  
+  .clock::before {
+    
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 11;
+  }
+  .clock::after {
+    
+    text-decoration: underline;
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+    width: 80%;
+  }
+  
+  .clock ul {
+    list-style-type: none;
+  }
+  
+  .clock .hands li {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+    transform-origin: bottom;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 0 0;
+    z-index: 10;
+  }
+  
+  .clock .hands .second {
+    width: 3px;
+    height: 45%;
+    background-color: rgb(219, 16, 16);
+  }
+  
+  .clock .hands .minute {
+    width: 7px;
+    height: 40%;
+  }
+  
+  .clock .hands .hour {
+    width: 10px;
+    height: 35%;
+  }
+  
+  .clock .numbers li {
+    --rotate: 0;
+    width: 100%;
+    height: 100%;
+    font-size:x-large;
+    text-align: center;
+    position: absolute;
+    transform: rotate(var(--rotate));
+  }
+  
+  .numbers li.num-1 {
+    --rotate: 0deg;
+    padding-left: 120px;
+    padding-top: 20px;
+    font-size: xx-large;
+    
+  }
+  
+  .numbers li.num-2 {
+    --rotate: 0deg;
+    padding-left: 170px;
+    padding-top: 60px;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-3 {
+    --rotate: 0deg;
+    padding-left: 200px;
+    padding-top: 106px;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-4 {
+    --rotate: 0deg;
+    padding-left: 180px;
+    padding-top: 150px;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-5 {
+    --rotate: 0deg;
+    padding-left: 140px;
+    padding-top: 200px;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-6 {
+    --rotate: 0deg;
+    padding-top: 220px;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-7 {
+    --rotate: 210deg;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-8 {
+    --rotate: 240deg;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-9 {
+    --rotate: 0deg;
+    padding-top: 106px;
+    padding-right: 225px;
+    font-size: xx-large;
+    
+  }
+  
+  .numbers li.num-10 {
+    --rotate: 300deg;
+    font-size: xx-large;
+  }
+  
+  .numbers li.num-11 {
+    --rotate: 330deg;
+    font-size: xx-large;
+  }
+  

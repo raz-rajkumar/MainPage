@@ -8,16 +8,20 @@
 </head>
 <body>
     <h1 id="heading">Stop<span>Watch</span>  </h1>
+    <span id="inp"><input type="number" id="hh" value="0">Hour <input type="number" id="mm">Minute</span>
+    <button onclick="set()">Set Time</button>
     <div id="count">
-        <div id="time">
-            <div id="hour">05</div>
-            <h1>:</h1>
-            <div id="min">00</div>
-        </div>
-        <div id="btn">
-            <button onclick="start()">START</button>
+        <div class="clock">
+        <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+    <div id="btn">
+            <button id="startButton">Start</button>
+    <button id="stopButton">Stop</button>
+    <button id="resetButton">Reset</button>
         </div>
     </div>
     <script src="./script.js"></script>
 </body>
 </html>
+
+

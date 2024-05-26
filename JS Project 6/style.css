@@ -18,7 +18,7 @@ body
 #count
 {
     height: 300px;
-    width: 300px;
+    width: 400px;
     border: 2px solid rgba(236, 223, 223, 0.296);
     box-shadow: 4px 4px 15px black;
     display: flex;
@@ -26,16 +26,26 @@ body
     justify-content: center;
     align-items: center;
 }
-#time
-{
-    display: flex;
-    flex-direction: row;
-}
-#hour,#min,h1
+
+#hours,#minutes,#seconds
 {
     font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
 
+.clock {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input
+{
+    height: 20px;
+    width: 50px;
 }
