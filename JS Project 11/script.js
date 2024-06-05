@@ -1,22 +1,9 @@
-const api_key="44b803d9";
-const resultsDiv=document.getElementById('result')
-const inputBox=document.getElementById('inp')
-const btn=document.getElementById('btn')
-btn.addEventListener('click',fetchData)
-
-function fetchData() {
-	fetch(`https://www.omdbapi.com/?s=${inputBox.value}&apikey=${api_key}`)
-		.then(function (res) {
-			return res.json()
-		})
-		.then(function (data) {
-            console.log(data.Search);
-            displayData(data.Search)
-		})
-		.catch(function (err) {
-			console.log(err)
-		})
-}
+import { fetchData,data } from "./script2"
+const api_key = "44b803d9"
+const resultsDiv = document.getElementById("results")
+const inputBox = document.getElementById("inp")
+const btn = document.getElementById("btn")
+btn.addEventListener("click", fetchData)
 
 function displayData (movies)
 {
