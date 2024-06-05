@@ -13,6 +13,7 @@ rightBtn.addEventListener('click', () => {
   }
 
   // setBgToBody()
+  change()
   setActiveSlide()
 })
 
@@ -22,16 +23,15 @@ leftBtn.addEventListener('click', () => {
   if (activeSlide < 0) {
     activeSlide = slides.length - 1
   }
-
-  // setBgToBody()
+  change()
   setActiveSlide()
 })
-
-// setBgToBody()
-
-// function setBgToBody() {
-//   body.style.backgroundImage = slides[activeSlide].style.backgroundImage
-// }
+function change()
+{
+    const random="#"+Math.floor(Math.random()*10000000).toString(16);
+    const random2="#"+Math.floor(Math.random()*10000000).toString(16);
+    document.body.style.background=`linear-gradient(${random},${random2})`
+}
 
 function setActiveSlide() {
   slides.forEach((slide) => slide.classList.remove('active'))

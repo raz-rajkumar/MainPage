@@ -60,11 +60,11 @@ body::before {
 .arrow {
   position: fixed;
   background-color: transparent;
-  color: #131212;
+  color: #e9e1e1;
   padding: 20px;
   font-size: 30px;
   border-radius: 50%;
-  border: 1px solid rgb(255, 0, 0);
+  border: 2px solid rgb(241, 233, 233);
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
