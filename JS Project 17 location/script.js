@@ -20,7 +20,7 @@ function geoLocationSuccess(pos) {
     var loadingTimeout;
 
     function loading() {
-        loc.textContent = "Fetching...";
+        loc.textContent = "";
     }
 
     loadingTimeout = setTimeout(loading, 600);

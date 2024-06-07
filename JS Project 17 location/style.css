@@ -6,3 +6,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.location
+{
+    height: 150px;
+    width: 700px;
+    text-align: center; 
+}
